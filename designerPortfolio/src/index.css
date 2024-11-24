@@ -1,0 +1,225 @@
+*{
+  font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+
+    color: black;
+   
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+header{
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+header ul{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 20px;
+}
+.logo{
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight:500;
+  text-decoration: none;
+}
+header nav ul .nav-items{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  text-decoration: none;
+  font-weight: 300;
+  margin-right: 25px;
+}
+header ul li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+.homeWithHr{
+  display: flex;
+  flex-direction: column;
+
+}
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+}
+.home p{
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 40px;
+}
+.home h2{
+  font-size: 80px;
+  font-weight: 500;
+}
+.home img{
+  width: 450px
+}
+.home .left-side{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+hr{
+  margin-left: 13%;
+  margin-right: 15%;
+  
+}
+.logosRow {
+  margin-left: 13%;
+  margin-right: 14%;
+  padding-top: 50px;
+  display: flex;              
+  justify-content: space-between; 
+  align-items: center;        
+  flex-wrap: wrap;             
+  gap: 20px; 
+  padding-bottom: 50px;                
+}
+
+.logosRow img {
+  max-height: 40px;           
+  object-fit: contain;          
+}
+.col{
+display: flex;
+flex-direction: column;
+margin-left: 13%;
+margin-right: 14%;
+margin-top: 90px;
+ gap: 20px;
+}
+.works{
+  font-size: 30px;
+  font-weight: 500;
+align-self: center;
+margin-bottom: 50px;
+
+
+}
+.row{
+  display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 18px;
+margin-bottom: 100px;
+
+}
+.row img{
+width: 230px;
+}
+
+.card h6{
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.card2{
+  width: 250px;
+  height:250px;
+  background-color: hsl(47, 100%, 95%);
+  border:1px solid rgb(255, 234, 0);
+  padding: 25px;
+}
+.card2 p{
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-weight: 300;
+}
+.card2 .Clienttext{
+  font-weight: 500;
+}
+.picfeed{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.picfeed img{
+  width: 80px;
+  height: 80px;
+}
+.feedback{
+  display: flex;
+  flex-direction:row;
+  gap: 10px;
+  padding-bottom: 8px;
+}
+.feedName{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+}
+.container{
+  margin-left: 13%;
+  margin-right: 17%;
+  display: flex;
+  flex-direction:row;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  justify-content: space-evenly;
+
+}
+.left{
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+}
+.left p{
+width: 350px;
+}
+.left .contacts-row{
+  display: flex;
+  gap: 15px;
+}
+.container .contacts-row img{
+ width: 5%;
+
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.right input{
+  width: 400px;
+  height: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  background-color: rgba(234, 234, 234, 0.855);
+  border: none;
+  
+  
+}
+input::placeholder, textarea::placeholder{
+  color: black; 
+}
+.right textarea{
+  width: 400px;
+  height: 200px;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: rgba(234, 234, 234, 0.855);
+  border: none;
+}
+.right .btn{
+  width: 40%;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}

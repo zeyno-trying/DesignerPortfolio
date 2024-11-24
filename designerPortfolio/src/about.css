@@ -1,0 +1,64 @@
+.BioHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 23%;
+    height: 500px;
+    background-color: #F9E6F0;
+    
+}
+.BioHome h4{
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.BioHome p{
+    font-weight: 300;
+}
+.underline {
+    text-decoration: underline;
+}
+.PicBio{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    gap: 60px;
+    padding-bottom: 20px;
+}
+.bioo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.PicBio img{
+    width:200px;
+}
+.PicBio p{
+    width: 470px;
+    line-height: 26px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.content p{
+    font-weight: 300;
+    font-size: 16px;
+    width: 770px;
+    line-height: 24px;
+}
+.content .txt1{
+    width: 770px;
+    font-size: 25px;
+    line-height: 35px;
+    padding-bottom: 40px;
+}
+.content .txt2{
+    color: #F9E6F0;
+    background-color: #009379;
+    width: 770px;
+    padding: 5px 0px;
+}
